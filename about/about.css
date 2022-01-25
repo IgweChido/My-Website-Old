@@ -1,0 +1,230 @@
+/************** about page************/
+.container-fluid{
+	position: relative;
+}
+
+/****  Experience Column ****/
+.headov{
+	text-align: center;
+	font-size: 30px;
+	
+}
+@media screen and (min-width: 576px){
+.expskback{
+	
+	/*border: 1px solid black;*/
+	margin: 50px 100px 100px;
+	background-color: #f2f2f2;
+	padding: 50px;
+}
+}
+
+.expskback1{
+	/*border: 1px solid red;*/
+}
+
+.expskback11{
+	/*border: 1px solid blue;*/
+	margin: 50px;
+}
+
+.expskback12{
+	/*border: 1px solid green;*/
+}
+
+.bighead{
+	color: blue;
+}
+
+.expskback13{
+	/*border: 1px solid purple;*/
+	margin:10px  100px;
+}
+
+
+
+
+
+
+
+
+
+/****  Experience Column (Phone)****/
+.headovp{
+	text-align: center;
+	font-size: 25px;
+	padding: 20px 0px
+	
+}
+@media screen and (max-width: 576px){
+.expskbackp{
+	/*border: 1px solid yellow;*/
+	/*margin: 50px 0px 100px;*/
+	background-color: #f2f2f2;
+	padding: 15px;
+}
+}
+
+.expskback1p{
+	/*border: 1px solid red;*/
+	
+}
+
+.expskback11p{
+	/*border: 1px solid blue;*/
+	padding:0px;
+}
+
+.expskback12p{
+	/*border: 1px solid green;*/
+}
+
+.bigheadp{
+	color: blue;
+	font-size: 20px;
+	padding: 15px 0px;
+}
+
+.expskback13p{
+	/*border: 1px solid purple;*/
+	padding: 15px auto ;
+	
+	
+}
+
+.smallheadp{
+
+}
+
+.greyheadp{
+	color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+/************ Skills column ************/
+
+.expskback2{
+	/*border: 1px solid yellow;*/
+}
+
+.expskback22{
+	/*border: 1px solid blue;*/
+	margin: 50px;
+}
+
+.star{
+	/*border: 1px solid red;*/
+
+	margin: 0px 0px;
+}
+
+
+.starrr{
+	/*border: 1px solid black;*/
+-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+
+.starrr:hover{
+-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	
+
+}
+
+
+.fa-star{
+/*border: 1px solid black;*/
+	color: gold;
+
+
+	
+}
+
+
+
+.nostar{
+	color: #bfbfbf;
+}
+
+
+
+/****  Skills Column (Phone)****/
+
+.expskback2p{
+	/*border: 1px solid black;*/
+}
+
+.expskback22p{
+	/*border: 1px solid blue;*/
+	margin: 50px ;
+	padding:  auto;
+	display: block;
+}
+
+.starp{
+	/*display: inline-block;*/
+	margin: 10px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/************ Project **********/
+.projects{
+	
+}
+.projectback{
+	/*border: 1px solid yellow;*/
+	margin-bottom: 100px;
+}
+
+
+.projectback img{
+
+	height: 200px;
+	width: 95%;
+	margin: auto;
+	display: block;
+
+}
+
+@media screen and (min-width: 1000px){
+.projectback img{
+
+	height: 200px;
+	width: 80%;
+	margin: auto;
+	display: block;
+
+}
+
+}
+
+
+.project2{
+	/*border: 1px solid blue;*/
+	margin: 40px 0px;
+}
+
+
+
